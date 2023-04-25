@@ -15,5 +15,5 @@ export const Title = styled.h2`
   margin-bottom: ${props => props.theme.spacing(4)};
   font-size: 20px;
   text-transform: uppercase;
-  color: ${props => props.theme.colors.darkGray};
+  color: ${props => props.theme.colors.darkGrey};
 `;

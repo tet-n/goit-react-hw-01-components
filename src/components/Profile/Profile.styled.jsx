@@ -26,7 +26,7 @@ export const UserName = styled.p`
 
 export const UserEmail = styled.p`
   margin-bottom: 7px;
-  color: ${props => props.theme.colors.darkGray};
+  color: ${props => props.theme.colors.darkGrey};
 `;
 
 export const Location = styled.p`

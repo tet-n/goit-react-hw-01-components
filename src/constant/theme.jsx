@@ -2,8 +2,12 @@ export const theme = {
   colors: {
     darkBlue: '#000816',
     white: '#fff',
-    darkGray: ' #656565',
-    lightGray: '#b2b2b2',
+    darkGrey: ' #656565',
+    lightGrey: '#cacaca',
+    online: '#316e19',
+    offline: '#ce2724',
+    blue: '#2498ce',
+    lightBlue: '#e4f4fc',
   },
   spacing: (...values) => {
     let value = '';
