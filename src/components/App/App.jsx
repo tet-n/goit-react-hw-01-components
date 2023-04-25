@@ -22,7 +22,8 @@ export const App = () => {
           likes={user.stats.likes}
         />
       </SectionWrapper>
-      <Statistics title={'Upload stats'} stats={data}></Statistics>
+      <Statistics title="Upload stats" stats={data}></Statistics>
+      <Statistics stats={data}></Statistics>
       <SectionWrapper>
         <FriendList friends={friendsData} />
       </SectionWrapper>
