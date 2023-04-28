@@ -4,7 +4,7 @@ import { Section, Title } from './Statistics.styled';
 export function Statistics({ title, stats }) {
   return (
     <Section>
-      {title && <Title className="title">{title}</Title>}
+      {title && <Title>{title}</Title>}
       <StatisticsList stats={stats} />
     </Section>
   );
@@ -12,11 +12,5 @@ export function Statistics({ title, stats }) {
 
 Statistics.propTypes = {
   title: PropTypes.string,
-  stats: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string.isRequired,
-      label: PropTypes.string.isRequired,
-      percentage: PropTypes.number.isRequired,
-    })
-  ),
+  stats: PropTypes.array,
 };

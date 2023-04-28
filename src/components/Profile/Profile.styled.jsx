@@ -7,6 +7,7 @@ export const ProfileBox = styled.div`
   background-color: ${props => props.theme.colors.white};
 
   text-align: center;
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.25);
 `;
 
 export const Description = styled.div`
@@ -37,8 +38,8 @@ export const Stats = styled.ul`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: ${props => props.theme.colors.lightGray};
-  border-top: ${props => `1px solid ${props.theme.colors.darkGray}`};
+  background-color: ${props => props.theme.colors.lightGrey};
+  border-top: ${props => `1px solid ${props.theme.colors.darkGrey}`};
 `;
 
 export const StateItem = styled.li`
@@ -49,12 +50,12 @@ export const StateItem = styled.li`
   width: 33%;
   padding: ${props => props.theme.spacing(2)};
   &:not(:last-child) {
-    border-right: ${props => `1px solid ${props.theme.colors.darkGray}`};
+    border-right: ${props => `1px solid ${props.theme.colors.darkGrey}`};
   }
 `;
 
 export const Label = styled.span`
-  color: ${props => props.theme.colors.darkGray};
+  color: ${props => props.theme.colors.darkGrey};
 `;
 
 export const Quantity = styled.span`
